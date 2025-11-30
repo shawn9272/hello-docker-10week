@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    # 'db'라는 이름의 MySQL 서버에 접속하라고 알려줌
+    url: jdbc:mysql://db:3306/myappdb
+    username: root
+    password: password
+  jpa:
+    # JPA가 이 정보를 바탕으로 동작함
+    hibernate:
+      ddl-auto: update
+server:
+  port: 9090
